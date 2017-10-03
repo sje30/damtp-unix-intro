@@ -68,7 +68,6 @@ Bad news: not much quota by default (although can ask for more).
 
 Good news: backed up.
 
-
 On subliminal you can make:
 
     mkdir /local/data/public/CRSID
@@ -80,6 +79,8 @@ if you have anything private (e.g. coursework).
 This disk (/local/data/public) is about 15TB, and not backed-up.  Your
 files will be deleted in September 2018, so please remove them before then.
 
+
+Note also that you will have about 3Gb file space (backed up) on MCS.
 
 # Top commands to explore
 
