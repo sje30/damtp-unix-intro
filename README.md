@@ -1,8 +1,6 @@
 # Lab session 2017-10-04
 
-Basic aims for lab.
-
-## Introduction to the system (MCS, DAMTP).
+## Introduction to the system (MCS, DAMTP)
 
 
 The DAMTP system is described in http://www.maths.cam.ac.uk/computing/learning/unixbook.pdf
@@ -25,7 +23,8 @@ https://webmail.hermes.cam.ac.uk/
 From a terminal, type:
 
     ssh -Y sje30@subliminal.maths.cam.ac.uk # change to your CRSID
-
+	xeyes
+	
 (-Y means that you can run X11, i.e. graphical windows, over the connection.)
 
 
@@ -135,5 +134,3 @@ https://lapserv.maths.cam.ac.uk/docs/files.html
 # Next steps
 
 Consider doing the half-day course offered by the Central UIS.
-
-
