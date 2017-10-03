@@ -1,22 +1,26 @@
-# Lab session 2016-10-03
+# Lab session 2017-10-04
 
-Basic aims for lab
+Basic aims for lab.
 
-## Introduction to the system (PWF, DAMTP).
+## Introduction to the system (MCS, DAMTP).
 
 
 The DAMTP system is described in http://www.maths.cam.ac.uk/computing/learning/unixbook.pdf
 
-PWF is the centrally-managed compute cluster.
+MCS (Managed Clustered Service) is the centrally-managed compute
+cluster.  Apologies if I still refer to it as PWF (Public Workstation
+Facility).
+
+
 ## How to access your email
 
 https://webmail.hermes.cam.ac.uk/
 
-## What is subiculum.damtp.cam.ac.uk?
+## What is subliminal.damtp.cam.ac.uk?
 
-64 core machine in DAMTP.
+64 core machine in DAMTP.  Lots of CPUs and lots of RAM.  Teaching machine.
 
-## How to login to subiculum
+## How to login to subliminal
 
 From a terminal, type:
 
@@ -25,7 +29,7 @@ From a terminal, type:
 (-Y means that you can run X11, i.e. graphical windows, over the connection.)
 
 
-## Setting up COMPBIO area on subiculum
+## Setting up COMPBIO area on subliminal
 
 This allows you to run other COMPBIO software by extending your $PATH variable:
 
@@ -65,7 +69,7 @@ Bad news: not much quota by default (although can ask for more).
 Good news: backed up.
 
 
-On subiculum you can make:
+On subliminal you can make:
 
     mkdir /local/data/public/CRSID
 	
@@ -73,7 +77,9 @@ Check
 [permissions](https://en.wikipedia.org/wiki/File_system_permissions)
 if you have anything private (e.g. coursework).
 
-See also "store-space".
+This disk (/local/data/public) is about 15TB, and not backed-up.  Your
+files will be deleted in September 2018, so please remove them before then.
+
 
 # Top commands to explore
 
@@ -98,6 +104,11 @@ screen
 
 scp / ssh / rsync / unison
 ```
+
+## Long running jobs
+
+For example, let's all run "slowjob" and then check the machine status
+using "top".
 
 
 # Laptop issues
