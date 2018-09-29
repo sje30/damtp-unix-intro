@@ -3,7 +3,7 @@
 ## Introduction to the system (MCS, DAMTP)
 
 
-The DAMTP system is described in http://www.maths.cam.ac.uk/computing/learning/unixbook.pdf
+The DAMTP system is described in https://www.maths.cam.ac.uk/computing/newusers/minibooklet.pdf
 
 MCS (Managed Clustered Service) is the centrally-managed compute
 cluster.  Apologies if I still refer to it as PWF (Public Workstation
