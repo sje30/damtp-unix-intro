@@ -75,8 +75,13 @@ Check
 [permissions](https://en.wikipedia.org/wiki/File_system_permissions)
 if you have anything private (e.g. coursework).
 
-This disk (/local/data/public) is about 15TB, and not backed-up.  Your
-files will be deleted in September 2018, so please remove them before then.
+This disk (`/local/data/public`) is about 15TB, and not backed-up.  Your
+files will be deleted in September 2019, so please remove them before
+then.
+
+Check out the file `/local/data/SPACEHOGS` to check your disk usage.
+As the disk fills up (`df -h /local/data/`) users near the top of the
+SPACEHOGS list will be asked to remove their files.
 
 
 Note also that you will have about 3Gb file space (backed up) on MCS.
