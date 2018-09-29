@@ -14,6 +14,8 @@ Facility).
 
 https://webmail.hermes.cam.ac.uk/
 
+2018: Email alert -- have you switched to Outlook?
+
 ## What is subliminal.damtp.cam.ac.uk?
 
 64 core machine in DAMTP.  Lots of CPUs and lots of RAM.  Teaching machine.
