@@ -140,4 +140,5 @@ https://lapserv.maths.cam.ac.uk/docs/files.html
 
 # Next steps
 
-Consider doing the half-day course offered by the Central UIS.
+Consider doing the half-day course offered by the Central UIS: *Unix:
+Introduction to the Command Line Interface* https://training.cam.ac.uk/ucs/event/2683594
