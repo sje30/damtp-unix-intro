@@ -22,6 +22,9 @@ https://webmail.hermes.cam.ac.uk/
 
 ## How to login to subliminal
 
+Get your password https://cat.maths.cam.ac.uk/mathspassword/ - via
+raven
+
 From a terminal, type:
 
     ssh -Y sje30@subliminal.maths.cam.ac.uk # change to your CRSID
