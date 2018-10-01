@@ -1,4 +1,4 @@
-# Lab session 2017-10-04
+# Lab session 2018-10-01
 
 ## Introduction to the system (MCS, DAMTP)
 
