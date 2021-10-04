@@ -14,7 +14,7 @@ cluster.  Apologies if I still refer to it as PWF (Public Workstation
 Facility).  These machines are to be found in the CATAM room and
 around your colleges.
 
-There are about 600 linux machines in the DAMTP network.  You can
+There are about 500 linux machines in the DAMTP network.  You can
 login to the ones in the 'public' group and to any research group that
 you belong.
 
@@ -200,6 +200,14 @@ in sync.
 
 https://www.maths.cam.ac.uk/computing/remoteaccess/copyingfiles shows
 how to use tools like sftp
+
+
+### moving files in/out of the faculty
+
+zendto is a service for securely sending/receiving large files, up to
+20gb.
+
+https://zendto.maths.cam.ac.uk/
 
 ### nextcloud
 
