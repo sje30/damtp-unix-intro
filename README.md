@@ -24,7 +24,7 @@ https://office.com  New accounts should be on outlook.
 
 ## What is subliminal.damtp.cam.ac.uk?
 
-64 core machine in DAMTP.  Lots of CPUs and lots of RAM.  Teaching
+64 core machine in DAMTP, with lots of RAM and disk space.  Teaching
 machine.  For the MPhil, this is the main (but not only) DAMTP machine
 I recommend you use.  
 
