@@ -1,18 +1,9 @@
-# Lab session 2021-10-06
+# Lab session 2022-10-06
 
-## Introduction to the system (MCS, DAMTP)
+## Introduction to the system (DAMTP)
 
 
-The DAMTP system is described in
-https://www.maths.cam.ac.uk/computing/newusers/minibooklet.pdf and the
-longer guide is at https://www.maths.cam.ac.uk/computing/ComputingBooklet.pdf
-
-https://www.maths.cam.ac.uk/computing/files/newusers/New%20starter%20IT%20essentials%20V1.0.pdf
-
-MCS (Managed Clustered Service) is the centrally-managed compute
-cluster.  Apologies if I still refer to it as PWF (Public Workstation
-Facility).  These machines are to be found in the CATAM room and
-around your colleges.
+The DAMTP system is described briefly in https://www.maths.cam.ac.uk/computing/newusers
 
 There are about 500 linux machines in the DAMTP network.  You can
 login to the ones in the 'public' group and to any research group that
@@ -26,7 +17,7 @@ https://office.com  New accounts should be on outlook.
 
 64 core machine in DAMTP, with lots of RAM and disk space.  Teaching
 machine.  For the MPhil, this is the main (but not only) DAMTP machine
-I recommend you use.  
+I recommend you use.
 
 Note that your home directory is shared across all DAMTP machines.
 Likewise, your password is the same across all DAMTP machines -- so if
@@ -56,7 +47,6 @@ use https://hotdesk.maths.cam.ac.uk
 This allows you to run a persistent session on subliminal.  You can
 close the browser tab and then come back to the same windows.
 
-
 screen/tmux are similar programs for text-only terminals.  These allow
 you to leave long jobs running and then reconnect later.
 
@@ -78,7 +68,6 @@ Check that you can now run R and other tools:
 
     R
     4*2
-    require(limma)
 
 Ctrl-D to exit R.  Then try rstudio:
 
@@ -104,20 +93,21 @@ https://www.maths.cam.ac.uk/computing/storage/backups/mathsbackups
 For working with large files. on subliminal you can store them in a
 'data' directory (this is not backed up).
 
-    mkdir /local/data/public/2021/CRSID
+    mkdir /local/data/mphilcompbio/2022/CRSID
 
 Check
 [permissions](https://en.wikipedia.org/wiki/File_system_permissions)
 if you have anything private (e.g. coursework).
 
 This disk (`/local/data/public`) is about 15TB, and NOT backed-up.
-files in /local/data/public/2021 will be deleted in September 2022, so
+Your files will be deleted in September 2023, so
 please remove them before then.
 
 Please check the local disk usage by examining 
-http://monitor.maths.cam.ac.uk/cgi-bin/agedu//subliminal/
 
-Note also that you will have about 3Gb file space (backed up) on MCS.
+    du -sh <directory>
+	df -h /local/data ## check storage as a whole.
+
 
 There are also 'store' and 'scratch' data spaces that you might have
 access to:
@@ -176,12 +166,12 @@ using "top".
 
 ## Eduroam
 
-http://www.ucs.cam.ac.uk/wireless/eduroam/localusers
+https://help.uis.cam.ac.uk/service/wi-fi
 
 
 ## VPN
 
-http://www.ucs.cam.ac.uk/vpn
+https://help.uis.cam.ac.uk/service/network-services/remote-access/uis-vpn
 
 ## Remote logins
     ssh ssh.maths.cam.ac.uk
@@ -222,13 +212,9 @@ X11 and you should be ready.
 
 If you have a windows machine, I recommend you install WSL2 and
 perhaps the X server (the latter is a bit fiddly).  You can then start
-'Windows Terminal'.
+'Windows Terminal'.  Windows 11 should help a lot here, in that you
+won't need X11.
 
-https://github.com/microsoft/wslg promises to do both the linux + X11
-graphics together.  This relies however on either installing a beta
-release of Windows 11, or waiting for your laptop to be ready to
-update to Windows 11 (sometime after October 5 2021, and finalised by
-summer 2022.)  I am going to wait...
 
 If you have a linux laptop, congratulations, no further edits needed.
 
@@ -243,7 +229,7 @@ https://www.maths.cam.ac.uk/computing/software/maths
 ## Running long jobs elsewhere
 
 https://www.maths.cam.ac.uk/computing/queuing-system-desktops	describes
-a queuing system available for long jobs in maths.
+a queuing system available for long jobs in maths.  (We will use slurm later.)
 
 # Next steps
 
