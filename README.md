@@ -9,6 +9,13 @@ There are about 500 linux machines in the DAMTP network.  You can
 login to the ones in the 'public' group and to any research group that
 you belong.
 
+
+## DAMTP account information
+
+
+https://mypassword.maths.cam.ac.uk/  use your raven password to get/set
+your maths password.
+
 ## How to access your email
 
 https://office.com  New accounts should be on outlook.
