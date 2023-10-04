@@ -260,6 +260,9 @@ a queuing system available for long jobs in maths.  (We will use slurm later.)
 
 # Next steps
 
+
+[The Linux Command Line free book](http://linuxcommand.org/tlcl.php)
+
 Consider doing the half-day course offered by the Central UIS: *Unix:
 Introduction to the Command Line Interface* (not running during covid).
 
