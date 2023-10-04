@@ -5,8 +5,7 @@
 
 
 [Embracing the command line: my unexpected career in computational
-biology](Embracing the command line: my unexpected career in
-computational biology).
+biology](https://www.nature.com/articles/d41586-023-03120-4).
 
 ## Introduction to the system (DAMTP)
 
