@@ -1,4 +1,12 @@
-# Lab session 2022-10-06
+# Lab session 2023-10-05
+
+
+## Why the command line?
+
+
+[Embracing the command line: my unexpected career in computational
+biology](Embracing the command line: my unexpected career in
+computational biology).
 
 ## Introduction to the system (DAMTP)
 
@@ -87,6 +95,19 @@ From a browser visit  http://subliminal.maths.cam.ac.uk:8787/
 
 As long as you have a browser, you can calculate...!
 
+Warning: plots don't currently ([2023-10-04 Wed]) work; it has been
+reported but don't expect a quick update.  The slow workaround:
+
+```
+pdf(file="~/test.pdf")
+plot(1:10)
+dev.off()
+```
+
+You can then open that file and the pdf will appear in a different
+browser tab.  Refresh the browser tab if the file has changed to see
+an update. 
+
 ## Managing your files
 
     quota
@@ -100,14 +121,14 @@ https://www.maths.cam.ac.uk/computing/storage/backups/mathsbackups
 For working with large files. on subliminal you can store them in a
 'data' directory (this is not backed up).
 
-    mkdir /local/data/mphilcompbio/2022/CRSID
+    mkdir /local/data/mphilcompbio/2023/CRSID
 
 Check
 [permissions](https://en.wikipedia.org/wiki/File_system_permissions)
 if you have anything private (e.g. coursework).
 
 This disk (`/local/data/public`) is about 15TB, and NOT backed-up.
-Your files will be deleted in September 2023, so
+Your files will be deleted in September 2024, so
 please remove them before then.
 
 Please check the local disk usage by examining 
@@ -253,3 +274,4 @@ https://swcarpentry.github.io/shell-novice/
 and perhaps, later:
 
 https://swcarpentry.github.io/git-novice/
+
