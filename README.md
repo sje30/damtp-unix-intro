@@ -126,7 +126,7 @@ Check
 [permissions](https://en.wikipedia.org/wiki/File_system_permissions)
 if you have anything private (e.g. coursework).
 
-This disk (`/local/data/public`) is about 15TB, and NOT backed-up.
+This disk (`/local/data/mphilcompbio`) is about 15TB, and NOT backed-up.
 Your files will be deleted in September 2024, so
 please remove them before then.
 
@@ -140,6 +140,8 @@ There are also 'store' and 'scratch' data spaces that you might have
 access to:
 
 https://www.maths.cam.ac.uk/computing/storage/storage
+
+You can also store up to 1Tb of data (backed up) on onedrive.
 
 ## exploring quota in detail
 
